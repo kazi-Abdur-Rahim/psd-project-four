@@ -1,0 +1,227 @@
+:root{
+    --ff1:'Poppins', sans-serif;
+    --bacg:#ebebea;
+    --co1:#040101;
+    --co2:#ffff00;
+    --co3:#0e90ed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+
+.head{
+    color: var(--co1);
+    font-size: 50px;  
+}
+
+.para{
+    color: var(--co1);
+    font-size: 17px;
+}
+/*================== 
+    common css ends
+====================*/
+
+.bacg{
+    background: var(--bacg);
+}
+
+/*================== 
+    color css ends
+====================*/
+
+.pop-bold{
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+
+.pop-lig{
+    font-family: var(--ff1);
+    font-weight: 300;
+}
+
+.pop-med{
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+
+.pop-reg{
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+
+/*================== 
+    fonts css ends
+====================*/
+
+.btn{
+    width: 215px;
+    height: 75px;
+    line-height: 75px;
+    color: #ffff;
+    background: var(--co3);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/*================== 
+    btn css ends
+====================*/
+nav{
+    position: absolute;
+    width: 100%;
+}
+
+nav .manu{
+    height: 122px;
+    /* background: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .manu .manu-logo{
+    margin-left: 50px;
+}
+
+nav .manu .manu-list{
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .manu .manu-list button{
+    border: none;
+    background: var(--co3);
+    text-transform: capitalize;
+    color: white;
+    width: 118px;
+    height: 41px;
+    line-height:41px;
+    font-size: 17px;
+    margin: 0 30px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+
+nav .manu .manu-list button:hover{
+    color:var(--co1);
+    background: #2222;
+}
+
+nav .manu .manu-list i{
+    font-size: 34px;
+    color: var(--co1);
+}
+
+nav .manu .manu-list .bars{
+    color: var(--co3);
+}
+
+/*============
+    nav ends
+==============*/
+section{
+    height: 938px;
+    background:var(--bacg)
+}
+
+section .banner{
+    height: 100%;
+    /* background: violet; */
+    display: flex;
+}
+
+section .banner .banner-text {
+	width: 44%;
+	height: 845px;
+	/* background: green; */
+	box-sizing: border-box;
+	padding-left: 164px;
+}
+
+section .banner .banner-text h6{
+    width: 400px;
+    font-size: 100px;
+    text-transform: capitalize;
+    margin-top: 205px;
+}
+
+section .banner .banner-text h6 span{
+    color: var(--co3);
+}
+
+section .banner .banner-text p{
+    text-transform: capitalize;
+    color: var(--co1);
+    font-size: 22px;
+}
+
+section .banner .banner-text p span{
+    display: block;
+}
+
+section .banner .banner-text button {
+	border: none;
+	margin-top: 46px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+
+section .banner .banner-text button:hover{
+    color:var(--co1);
+    background: #2222;
+}
+
+section .banner .banner-img {
+	width: 56%;
+	height: 845px;
+	/* background: chocolate; */
+	display: flex;
+	align-items: flex-end;
+}
+
+section .banner .banner-img .bic{
+    width: 534px;
+    height: 500px;
+    background: var(--co2);
+    position: relative;
+}
+
+section .banner .banner-img .bic img {
+	position: absolute;
+	left: -160px;
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
