@@ -32,6 +32,7 @@ ul,ol{
 .head{
     color: var(--co1);
     font-size: 50px;  
+    text-transform: capitalize;
 }
 
 .para{
@@ -213,6 +214,147 @@ section .banner .banner-img .bic img {
 	position: absolute;
 	left: -160px;
 	bottom: 0;
+}
+
+/*================== 
+    banner css ends
+====================*/
+.about-bg{
+    background: url(../images/about.jpg)no-repeat center / cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about-bg .about-text{
+	width: 655px;
+	height: 938px;
+	margin-right: 116px;
+    text-align: right;
+}
+
+.about-bg .about-text h6 {
+	margin-right: 113px;
+    margin-top: 300px;
+}
+
+.about-bg .about-text p{
+	width: 543px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.about-bg .about-text button{
+	border: none;
+	margin-top: 46px;
+    margin-right: 113px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+
+.about-bg .about-text button:hover{
+    color:var(--co3);
+    background:var(--bacg);
+}
+
+/*==============
+    about ends
+===============*/
+.bird-bg{
+    height: 1254px;
+    background: var(--bacg);
+}
+
+.bird-bg .bird{
+    width: 1067px;
+    height: 1254px;
+    margin: auto;
+    position: relative;
+}
+
+.bird-bg .bird h6{
+    padding-top: 60px;
+}
+
+.bird-bg .bird p {
+	width: 598px;
+    margin-top: 40px;
+    padding-bottom: 35px;
+}
+
+.bird-bg .bird button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	border: none;
+	margin-top: 46px;
+    margin-right: 113px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+
+.bird-bg .bird button:hover{
+    color:var(--co3);
+    background:#2222;
+}
+
+.bird-bg .bird .bird-img {
+	height: 1026px;
+	/* background: crimson; */
+	position: relative;
+    margin-top: 70px;
+}
+
+.bird-bg .bird .bird-img .bird-item1 {
+	width: 576px;
+	height: 420px;
+	float: left;
+	clear: both;
+}
+
+.bird-bg .bird .bird-img .bird-item1 img{
+    width: 100%;
+}
+
+.bird-bg .bird .bird-img .bird-item2 {
+	width: 491px;
+	height: 461px;
+	float: left;
+	clear: both;
+	position: absolute;
+	right: 0;
+	top: -60px;
+}
+
+.bird-bg .bird .bird-img .bird-item2 img{
+    width: 100%;
+}
+
+.bird-bg .bird .bird-img .bird-item3 {
+	width: 491px;
+	height: 462px;
+	float: left;
+	clear: both;
+}
+
+.bird-bg .bird .bird-img .bird-item3 img{
+    width: 100%;
+}
+
+.bird-bg .bird .bird-img .bird-item4 {
+	width: 576px;
+	height: 430px;
+	float: left;
+	clear: both;
+	position: absolute;
+	bottom: 267px;
+	right: 0;
+}
+
+.bird-bg .bird .bird-img .bird-item4 img{
+    width: 100%;
 }
 
 
