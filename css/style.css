@@ -4,6 +4,7 @@
     --co1:#040101;
     --co2:#ffff00;
     --co3:#0e90ed;
+    --co4:#504b4b;
 }
 
 *{
@@ -36,7 +37,7 @@ ul,ol{
 }
 
 .para{
-    color: var(--co1);
+    color: var(--co4);
     font-size: 17px;
 }
 /*================== 
@@ -302,7 +303,6 @@ section .banner .banner-img .bic img {
 
 .bird-bg .bird .bird-img {
 	height: 1026px;
-	/* background: crimson; */
 	position: relative;
     margin-top: 70px;
 }
@@ -356,6 +356,116 @@ section .banner .banner-img .bic img {
 .bird-bg .bird .bird-img .bird-item4 img{
     width: 100%;
 }
+
+/*================ 
+    our bird ends 
+==================*/
+
+.testimonial-bg{
+    background:var(--bacg) ;
+    height: 814px;
+}
+
+.testimonial-bg .testimonial{
+    width: 1024px;
+    height: 814px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.testimonial-bg .testimonial h6{
+    text-align: right;
+    padding-top: 70px;
+}
+
+.testimonial-bg .testimonial .grp {
+	text-align: right;
+	padding-top: 25px;
+	width: 922px;
+	position: relative;
+	right: -100px;
+}
+
+.testimonial-bg .testimonial .test-row1 {
+	width: 611px;
+	height: 304px;
+	background: #ffffff;
+	margin-top: 40px;
+	float: left;
+	position: absolute;
+	bottom: 147px;
+	left: 0;
+}
+
+.testimonial-bg .testimonial .test-row1 .fas {
+    border: none;
+	position: relative;
+	left: 46%;
+	bottom: -90px;
+}
+
+.testimonial-bg .testimonial .test-row1 .circle1,.circle3{
+   color:#00aeef ;
+}
+
+.testimonial-bg .testimonial .test-row1 img {
+	width: 301px;
+	display: block;
+	margin: auto;
+	margin-top: -101px;
+}
+
+.testimonial-bg .testimonial .test-row1 h6{
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--co4);
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.testimonial-bg .testimonial .test-row1 span{
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 12px;
+}
+
+.testimonial-bg .testimonial .test-row1 p {
+	padding: 0px 76px;
+}
+
+.testimonial-bg .testimonial .test-row2 {
+	width: 413px;
+	height: 495px;
+	margin-top: 40px;
+	float: left;
+	position: absolute;
+	bottom: 56px;
+	right: 0;
+}
+
+.testimonial-bg .testimonial .test-row2 img {
+	filter: hue-rotate(130deg);
+    position: relative;
+    z-index: 111;
+}
+
+.testimonial-bg .testimonial .test-row2 .showo {
+	width: 400px;
+	position: relative;
+	bottom: 28%;
+	right: -40px;
+	box-shadow: -4px 6px 8px 3px rgba(4, 1, 1, 0.5);
+}
+
+/*=================== 
+    testimonial ends
+=====================*/
+
+
+
 
 
 
