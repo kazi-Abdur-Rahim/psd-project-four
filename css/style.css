@@ -463,17 +463,262 @@ section .banner .banner-img .bic img {
 /*=================== 
     testimonial ends
 =====================*/
+.news-bg{
+    height: 317px;
+    background: var(--bacg);
+}
+
+.news-bg .news{
+    height: 317px;
+    width: 1024px;
+    margin: auto;
+}
+
+.news-bg .news p {
+	padding-right: 102px;
+}
+
+.news-bg .news input {
+	width: 807px;
+	height: 79px;
+	background: #fcfcfc;
+	border: 1px solid var(--co4);
+	outline: none;
+	padding: 0px 20px;
+	text-transform: capitalize;
+	color: #777676;
+	font-size: 17px;
+	margin-top: 30px;
+}
+
+.news-bg .news button {
+	width: 175px;
+	height: 80px;
+	background: var(--co3);
+	color: var(--bacg);
+	text-transform: uppercase;
+	font-size: 17px;
+	border: 1px solid var(--co4);
+	cursor: pointer;
+	margin-left: -5px;
+}
+
+/*============= 
+    news ends
+===============*/
+.contact-bg{
+    height: 606px;
+    background: var(--bacg);
+}
+
+.contact-bg .contact{
+    width: 1024px;
+    height: 606px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.contact-bg .contact::after{
+    content: '';
+    width: 1000px;
+    height: 1px;
+    background: var(--co3);
+    position: absolute;
+    bottom: 20px;
+    margin: 0px 12px;
+}
+
+.contact-bg .contact .contact-row1{
+    width: 500px;
+    height: 540px;
+}
+
+.contact-bg .contact .contact-row1 img{
+    width: 100%;
+}
+
+.contact-bg .contact .contact-row2{
+    width: 524px;
+    height: 540px;
+}
+
+.contact-bg .contact .contact-row2 h6{
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.contact-bg .contact .contact-row2 input {
+	width: 460px;
+	height: 63px;
+	background-color: #ffffff;
+    color: var(--co4);
+    float: right;
+    outline: none;
+    padding: 0 20px;
+    text-transform: capitalize;
+    border: 1px solid var(--co4);
+    margin-bottom: 20px;
+}
+
+.contact-bg .contact .contact-row2 .sml{
+    width: 195px;
+    height: 63px;
+}
+
+.contact-bg .contact .contact-row2 input:nth-last-of-type(2) {
+	margin-right: 28px;
+}
+
+.contact-bg .contact .contact-row2 .mess{
+    height: 109px;
+}
+
+.contact-bg .contact .contact-row2 button {
+	width: 180px;
+	height: 70px;
+	background: var(--co3);
+	color: var(--co1);
+	text-transform: uppercase;
+	font-size: 20px;
+	border: 1px solid var(--co4);
+	float: right;
+	margin-top: 20px;
+	cursor: pointer;
+	transition: all linear 0.3s;
+}
+
+.contact-bg .contact .contact-row2 button:hover{
+    color: var(--co3);
+    background: #2222;
+}
+
+/*================= 
+    contact ends
+==================*/
+.footer-bg{
+    height: 350px;
+    background:var(--bacg);
+}
+
+.footer-bg .footer{
+    height: 350px;
+    width: 1024px;
+    margin: auto;
+}
+
+.footer-bg .footer .footer-logo{
+    width: 100%;
+    height: 108px;
+    text-align: center;
+}
 
 
+.footer-bg .footer .footer-text{
+    width: 100%;
+    height: 102px;
+    display: flex;
+}
 
+.footer-bg .footer .footer-text .text-row1{
+    width: 342px;
+    height: 100%;
+}
 
+.footer-bg .footer .footer-text .text-row1 h6{
+    font-size: 30px;
+    color: #02111c;
+    text-transform: capitalize;
+}
 
+.footer-bg .footer .footer-text .text-row1 p{
+    font-size: 17px;
+    color: #040000;
+}
 
+.footer-bg .footer .footer-text .text-row2{
+    width: 342px;
+    height: 100%;
+}
 
+.footer-bg .footer .footer-text .text-row2 h6{
+    font-size: 30px;
+    color: #02111c;
+    text-transform: capitalize;
+}
 
+.footer-bg .footer .footer-text .text-row2 p{
+    font-size: 17px;
+    color: #040000;
+    margin-top: 2px;
+}
 
+.footer-bg .footer .footer-text .text-row3{
+    width: 342px;
+    height: 100%;
+}
 
+.footer-bg .footer .footer-text .text-row3 h6{
+    font-size: 30px;
+    color: #02111c;
+    text-transform: capitalize;
+}
 
+.footer-bg .footer .footer-text .text-row3 p{
+    font-size: 17px;
+    color: #040000;
+    margin-top: 2px;
+}
 
+.footer-bg .footer .footer-icon{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
 
+.footer-bg .footer .footer-icon a {
+    width: 30px;
+    height: 30px;
+    line-height: 90px;
+    color: var(--co3);
+    border: 1px solid var(--co3);
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px 13px;
+    margin-right: 8px;
+    transition: all linear 0.3s;
+}
 
+.footer-bg .footer .footer-icon a:hover{
+    color: var(--co4);
+    border:1px solid var(--co1);
+}
+
+.footer-bg .footer .footer-end{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer-bg .footer .footer-end span{
+    text-transform: capitalize;
+    color: var(--co4);
+    line-height: 50px;
+    position: relative;
+    display: block;
+}
+
+.footer-bg .footer .footer-end span::before{
+    content: '';
+    width: 950px;
+    height: 1px;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*===============
+    footer ends
+==================*/
