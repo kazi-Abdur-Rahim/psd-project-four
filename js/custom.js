@@ -20,5 +20,5 @@ $(Window).scroll(function(){
 $('.scroll-top').click(function(){
     $('html,body').animate({
         scrollTop: '0px',
-    },00)
+    },1500)
 })
